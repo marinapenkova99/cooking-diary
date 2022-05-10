@@ -1,0 +1,109 @@
+.footer {
+  width: 100%;
+  position: relative;
+}
+.footer_background {
+  position: absolute;
+  right: 0;
+  object-fit: contain;
+  height: 80%;
+  bottom: 0;
+  z-index: -10;
+}
+.footer_content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 20px 0 20px;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.newsletter h2 {
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  padding: 0 20px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.email_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.email_wrapper input {
+  border: none;
+  padding: 15px 10px;
+  background: none;
+  max-width: 400px;
+  min-width: 400px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 500;
+  width: 100%;
+}
+.email_wrapper input::placeholder {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  padding: 0 20px;
+  font-weight: 500;
+  opacity: 0.4;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.email_wrapper input:focus {
+  background: none;
+}
+.main_footer_content h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.main_footer_content a {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+.rights_reserved {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  opacity: 0.4;
+  padding: 40px 0;
+}
+.success {
+  font-size: 12px;
+  color: green;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}

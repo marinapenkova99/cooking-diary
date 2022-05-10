@@ -1,0 +1,42 @@
+.modal_content_holder {
+  padding: 20px 30px;
+}
+.modal_body_text {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btns_holder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.btns_holder .delete,
+.btns_holder .cancel {
+  border: none;
+  outline: none;
+  background: none;
+  margin-right: 10px;
+  color: white;
+  padding: 10px 15px;
+  min-width: 140px;
+  max-width: 140px;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+}
+.btns_holder .delete {
+  background: #d30d2b;
+}
+.btns_holder .cancel {
+  background: #dfdfdf;
+  margin-right: 10px;
+}

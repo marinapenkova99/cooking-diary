@@ -1,0 +1,199 @@
+.most_popular_recipe_card {
+  width: 100%;
+  padding: 0 20px;
+  display: block;
+  position: relative;
+}
+.most_popular_recipe_card h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #484848;
+  padding: 0 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: capitalize;
+}
+.recipe_card_category {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  padding: 10px 25px;
+  border-radius: 20px 0 20px 0;
+  background: #ef9c12;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: white;
+  z-index: 1000;
+  font-weight: 600;
+}
+
+.most_popular_recipe_card_image_holder {
+  min-height: 200px;
+  border-radius: 20px;
+  max-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.2s ease-in;
+}
+.most_popular_recipe_card_image_holder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  max-height: 200px;
+  object-fit: cover;
+}
+.most_popular_recipe_card_image_holder:hover img {
+  transition: 0.2s ease-in;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.low_carbs_main_recipe {
+  width: 70%;
+  position: relative;
+  margin-right: 20px;
+}
+.low_carbs_main_recipe:hover .low_carbs_main_recipe_layout,
+.low_carbs_sub_recipe:hover .low_carbs_sub_recipe_layout {
+  display: flex;
+  transition: 0.2s ease-in;
+}
+
+.low_carbs_main_recipe img {
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.low_carbs_main_recipe h3,
+.low_carbs_sub_recipe h3 {
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  padding: 0 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.low_carbs_main_recipe_layout,
+.low_carbs_sub_recipe_layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  right: 0;
+  flex-direction: column;
+  bottom: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.2s ease-in;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.recipe_holder {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.recipe_image_holder {
+  max-width: 360px;
+  min-width: 360px;
+  max-height: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.recipe_image_holder img {
+  object-fit: cover;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+  width: 100%;
+  max-height: 200px;
+}
+.recipe_image_holder:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+
+.recipe_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.recipe_content a {
+  font-size: 22px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.recipe_content a:hover {
+  color: black;
+}
+.recipe_content .recipe_date {
+  color: black;
+  opacity: 0.5;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.recipe_description {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #484848;
+  max-height: 84px;
+  height: 100%;
+  overflow: hidden;
+}
+.recipe_content .recipe_category {
+  font-family: "Montserrat", sans-serif;
+  color: #ef9c12;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+}
+.recipe_list_category {
+  width: 100%;
+  margin: 0 0 10px auto;
+  font-family: "Montserrat", sans-serif;
+  color: #ef9c12 !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  text-align: left;
+}
+
+.low_carbs_sub_recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.low_carbs_sub_recipe img {
+  min-height: 190px;
+  max-height: 190px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+.low_carbs_sub_recipe h3 {
+  font-size: 20px !important;
+}
